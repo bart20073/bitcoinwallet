@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wallet Balance</string>
+    <string name="getbalance">Get Balance</string>
+    <string name="ready">Ready</string>
+    <string name="pastebin">pastebin id here</string>
+    <string name="help_text">1. Download/compile and run key decoder\n2. Place keys on pastebin\n3. Enter pastebin ID here (e.g. 5Tf7V4)\n<a href="http://code.google.com/p/bitcoinwallet/wiki/FAQ">More Help</a></string>
+    <string name="pastehelp_text">Paste your keys here</string>
+    <string name="filehelp_text">1. Download/compile and run key decoder\n2. Place keys on sdcard (named key*.txt)\n3. Select keys\n<a href="http://code.google.com/p/bitcoinwallet/wiki/FAQ">More Help</a></string>
+</resources>

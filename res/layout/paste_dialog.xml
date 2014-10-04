@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+    <TextView android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_width="fill_parent" android:id="@+id/pasteHelpText" android:text="Wallet Name">
+</TextView>
+   
+ <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/walletNameText" android:text="myWallet" android:layout_alignLeft="@+id/pasteHelpText" android:layout_alignRight="@+id/pasteHelpText" android:layout_below="@+id/pasteHelpText">
+   
+     <requestFocus></requestFocus>
+    </EditText>
+   
+ <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_below="@+id/walletNameText" android:layout_alignLeft="@+id/walletNameText" android:layout_alignRight="@+id/walletNameText" android:text="Paste Keys Here"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/textView2" android:layout_alignRight="@+id/textView2" android:id="@+id/keysText" android:lines="10" android:gravity="top" android:inputType="textMultiLine|textNoSuggestions"></EditText>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/importURL" android:title="Import from URL..."></item>
+    <item android:title="Import from File..." android:id="@+id/importFile"></item>
+    <item android:title="Paste Keys..." android:id="@+id/importPaste"></item>
+    <item android:id="@+id/optionsItem" android:title="Options"></item>
+    <item android:id="@+id/updateAllItem" android:title="Update All"></item>
+    <item android:id="@+id/helpItem" android:title="Help"></item>
+    
+        
+        
+        
+    </menu>

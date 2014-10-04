@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="fill_parent" android:layout_alignBottom="@+id/currencySpinner" android:layout_alignTop="@+id/currencySpinner" android:gravity="center_vertical" android:text="Currency" android:textSize="8pt"></TextView>
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/currencySpinner" android:layout_alignLeft="@+id/currencySpinner" android:layout_alignRight="@+id/currencySpinner" android:id="@+id/reqText" android:inputType="number">
+        <requestFocus></requestFocus>
+    </EditText>
+    <Spinner android:layout_width="wrap_content" android:layout_below="@+id/reqText" android:layout_height="wrap_content" android:layout_alignLeft="@+id/reqText" android:layout_alignRight="@+id/reqText" android:id="@+id/decpointSpinner"></Spinner>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_toLeftOf="@+id/decpointSpinner" android:layout_alignTop="@+id/decpointSpinner" android:layout_alignBottom="@+id/decpointSpinner" android:text="Decimal Points" android:textSize="8pt" android:layout_alignLeft="@+id/textView1" android:gravity="center_vertical"></TextView>
+    <TextView android:layout_toLeftOf="@+id/reqText" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_alignTop="@+id/reqText" android:layout_alignBottom="@+id/reqText" android:text="Addresses per request" android:layout_height="fill_parent" android:gravity="center_vertical" android:layout_alignLeft="@+id/textView1" android:inputType="number" android:textSize="6pt"></TextView>
+    <Spinner android:layout_width="wrap_content" android:id="@+id/currencySpinner" android:layout_height="wrap_content" android:layout_alignParentRight="true"></Spinner>
+</RelativeLayout>

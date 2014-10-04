@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+    <TextView android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_width="fill_parent" android:id="@+id/pasteBinHelpText" android:text="@string/help_text"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/hashEditText" android:layout_alignLeft="@+id/pasteBinHelpText" android:layout_alignRight="@+id/pasteBinHelpText" android:layout_below="@+id/pasteBinHelpText">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_below="@+id/hashEditText" android:layout_alignLeft="@+id/hashEditText" android:layout_alignRight="@+id/hashEditText" android:text="Wallet Name"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/textView2" android:layout_alignRight="@+id/textView2" android:text="myWallet" android:id="@+id/nameEditText"></EditText>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical" android:layout_height="wrap_content" android:background="#FFFFFF" android:gravity="center_vertical">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal" android:layout_height="wrap_content" android:gravity="center_vertical">
+	    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+	        <ImageView android:layout_width="wrap_content" android:src="@drawable/icon" android:id="@+id/imageView1" android:layout_height="wrap_content"></ImageView>
+	        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/imageView1" android:layout_alignTop="@+id/imageView1" android:layout_alignBottom="@+id/imageView1" android:gravity="center_vertical" android:id="@+id/walletNameText" android:text="Wallet Name"></TextView>
+	    </RelativeLayout>
+	    <RelativeLayout android:id="@+id/relativeLayout2" android:layout_height="fill_parent" android:layout_width="fill_parent">
+	        <TextView android:layout_height="wrap_content" android:gravity="center_vertical" android:id="@+id/walletBalanceText" android:layout_alignTop="@+id/updateButton" android:layout_toLeftOf="@+id/updateButton" android:text="short" android:layout_width="wrap_content"></TextView>
+	        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/walletBalanceText" android:layout_alignRight="@+id/walletBalanceText" android:layout_alignBottom="@+id/updateButton" android:id="@+id/walletCurText" android:text="Longer"></TextView>
+	        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:text="Update" android:id="@+id/updateButton"></Button>
+	    </RelativeLayout>
+	</LinearLayout>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal" android:layout_height="wrap_content" android:gravity="center_vertical">
+	<TextView android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:id="@+id/lastUpdatedText" android:text="Last Updated:"></TextView>
+	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:layout_alignParentRight="true" android:id="@+id/infoText"></TextView>
+	</RelativeLayout>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal" android:layout_height="wrap_content" android:gravity="center_vertical">
+	<TextView android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:id="@+id/txLastUpdatedText" android:text="Last Transaction:"></TextView>
+	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:layout_alignParentRight="true" android:id="@+id/txInfoText"></TextView>
+	</RelativeLayout>
+</LinearLayout>

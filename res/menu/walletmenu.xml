@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/viewItem" android:title="View Transactions"></item>
+    <item android:id="@+id/updateItem" android:title="Force Update"></item>
+    <item android:id="@+id/pasteClipKeys" android:title="Add Clipboard Keys"></item>
+<!--     <item android:title="Rename" android:id="@+id/renameItem"></item> -->
+    <item android:title="Remove" android:id="@+id/removeItem"></item>
+</menu>

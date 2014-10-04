@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+<TableLayout android:id="@+id/topTableLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" android:gravity="top">
+    <ListView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/walletListView"></ListView>
+</TableLayout>
+<RelativeLayout android:gravity="top" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_alignParentBottom="true" android:layout_width="fill_parent">
+    <TextView android:id="@+id/btcBalance" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:padding="10px" android:textColor="#000000" android:textSize="8pt" android:text="0.00 BTC"></TextView>
+    <TextView android:id="@+id/curBalance" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:padding="10px" android:textColor="#000000" android:textSize="8pt" android:text="0.00 USD"></TextView>
+    <TextView android:id="@+id/textView1" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:text="Total" android:textColor="#000000"></TextView>
+</RelativeLayout>
+</RelativeLayout>
